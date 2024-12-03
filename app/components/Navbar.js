@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
+import OverviewToggle from './OverviewToggle'
 
 const Navbar = () => {
   return (
@@ -18,7 +19,9 @@ const Navbar = () => {
             <Link href="/">
                 Borrowing
             </Link>
+            <OverviewToggle/>
         </nav>
+        
     </header>
   )
 }

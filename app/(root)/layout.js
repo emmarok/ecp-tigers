@@ -1,5 +1,4 @@
 import Navbar from "@/app/components/Navbar";
-import OverviewToggle from "../components/OverviewToggle";
 
 export default function Layout({ children }) {
     return (
@@ -7,7 +6,6 @@ export default function Layout({ children }) {
           className="bg-secondary"
         > 
         <Navbar/>
-        <OverviewToggle/>
           {children}
         </main>
 
