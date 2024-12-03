@@ -76,7 +76,6 @@ export function DoughnutTwo() {
           <PieChart>
             <ChartTooltip
               cursor={false}
-              rounded-lg
             />
             <Pie
               data={chartData}
@@ -98,7 +97,6 @@ export function DoughnutTwo() {
                         <tspan
                           x={viewBox.cx}
                           y={viewBox.cy}
-                          rounded-lg
                           className="fill-foreground text-3xl font-bold"
                         >
                           {totalBudget.toLocaleString()}
@@ -106,7 +104,6 @@ export function DoughnutTwo() {
                         <tspan
                           x={viewBox.cx}
                           y={(viewBox.cy || 0) + 24}
-                          rounded-lg
                           className="fill-muted-foreground"
                         >
                           Spent

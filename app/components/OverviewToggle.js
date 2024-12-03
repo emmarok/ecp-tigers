@@ -61,7 +61,7 @@ const OverviewToggle = () => {
         {isChecked ? "Normal Mode" : "Distraction Free Mode"}
       </Label>
       <Switch   className={`transition-colors duration-300 ${
-    isChecked ? "bg-white" : "bg-gray-300 border-gray-300"
+    isChecked ? "bg-primary border-gray-300" : "bg-secondary border-gray-300"
   }`} checked={isChecked} onCheckedChange={handleToggle} />
 
     </div>

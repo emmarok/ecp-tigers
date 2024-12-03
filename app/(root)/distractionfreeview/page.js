@@ -1,23 +1,11 @@
-import Preferences from "@/app/components/Preferences";
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function DistractionView () {
     return (<div className="bg-secondary h-full">
-        <div className="container min-h-full max-w-full mx-auto px-16 py-16">
-      
-      <div className="white_header_container">
-              <p className="text-black">Account Balance: £1000</p>
-              
-            </div>
-            <div className="min-h-24"></div>
-
-          
-            <div className="white_header_container">
-              <p className="text-black">Savings Account Balance: £1000</p>
-        
-            </div>
-            <Preferences/>
-    </div>
-    </div>
-     
+      <Link href="/">
+                <Image src="/distracted.png" alt="distracted" width={2000} height={2000}/>
+            </Link>
+     </div>
     )
   }
