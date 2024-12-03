@@ -5,7 +5,7 @@ export default function Layout({ children }) {
         <main
           className="bg-secondary"
         > 
-        <Navbar/>
+        <Navbar width={2000} height={2000}/>
           {children}
         </main>
 
