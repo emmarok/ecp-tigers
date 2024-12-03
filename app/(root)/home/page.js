@@ -1,5 +1,5 @@
-import DoughnutTwo from "../components/DoughnutTwo";
-import Drawer from "../components/Drawer";
+import DoughnutTwo from "../../components/DoughnutTwo";
+import Drawer from "../../components/Drawer";
 
 export default function Home () {
     return (<div className="bg-secondary h-full">
@@ -10,7 +10,7 @@ export default function Home () {
             </div>
             <div className="white_header_container">
               <p className="text-black">Secondary motivational text</p>
-              <Drawer className/>
+              <Drawer/>
             </div>
             <div className="min-h-24"></div>
             <div className="green_container">

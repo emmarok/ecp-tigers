@@ -31,8 +31,8 @@ export function DrawerDemo() {
       <DrawerContent>
         <div className="mx-auto w-full max-w-sm bg-white">
           <DrawerHeader>
-            <DrawerTitle>Move daily budget</DrawerTitle>
-            <DrawerDescription>Set your daily food budget.</DrawerDescription>
+            <DrawerTitle>Move monthly budget</DrawerTitle>
+            <DrawerDescription>Set your monthly food budget.</DrawerDescription>
           </DrawerHeader>
           <div className="p-4 pb-0">
             <div className="flex items-center justify-center space-x-2">
@@ -51,7 +51,7 @@ export function DrawerDemo() {
                   {goal}
                 </div>
                 <div className="text-[0.70rem] uppercase text-muted-foreground">
-                  Pounds/day
+                  Pounds/Month
                 </div>
               </div>
               <Button
