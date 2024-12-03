@@ -15,7 +15,17 @@ import {
 } from "@/components/ui/sheet";
 import { Checkbox } from "@/components/ui/checkbox";
 
-const Preferences = ({ initialData }) => {
+const Preferences = ({ data }) => {
+
+  const initialData = {
+    
+    clothes: 40,
+    food: 50,
+    travel: 60,
+    goingout: 20,
+    personalCare: 30
+  }
+
   const [enableFeature, setEnableFeature] = useState(false);
   const [receiveNotification, setReceiveNotification] = useState(
     true
@@ -87,7 +97,6 @@ const Preferences = ({ initialData }) => {
           <SheetTitle>Distraction Free Mode Preferences</SheetTitle>
         </SheetHeader>
 
-<<<<<<< HEAD
         <div className="p-4 space-y-6">
           {/* Switches */}
           <div className="space-y-2">
@@ -108,19 +117,6 @@ const Preferences = ({ initialData }) => {
                 />
               </div>
             ))}
-=======
-        <div className="p-4">
-          {/* Switch */}
-          <div className="flex items-center justify-between mb-4 ">
-            <label className="text-sm font-medium">Enable Feature</label>
-            <Switch
-              checked={switchValue}
-              onCheckedChange={(checked) => setSwitchValue(checked)}
-              className={`transition-colors duration-300 ${
-                switchValue ? "bg-red-500" : "bg-green-300"
-              }`}
-            />
->>>>>>> 827be84e0f36a30cbfc1f9037c2e367467ca1559
           </div>
 
           {/* Sliders */}

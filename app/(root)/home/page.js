@@ -1,10 +1,8 @@
 import DoughnutTwo from "../../components/DoughnutTwo";
 import Drawer from "../../components/Drawer";
 import Preferences from "@/app/components/Preferences";
-import { getServerSideProps } from "@/app/components/Service";
-
 export default function Home () {
-  const initialData = getServerSideProps();
+  
     return (<div className="bg-secondary h-full">
        <div className="container min-h-full max-w-full mx-auto px-16 py-16">
                      
@@ -19,7 +17,7 @@ export default function Home () {
               <DoughnutTwo/>
             </div>
 
-            <Preferences initialData ={initialData}/>
+            <Preferences />
             
     </div>
     </div>
