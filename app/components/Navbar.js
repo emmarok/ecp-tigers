@@ -10,15 +10,7 @@ const Navbar = () => {
             <Link href="/">
                 <Image src="/horsey.png" alt="logo" width={144} height={24}/>
             </Link>
-            <Link href="/">
-                Home
-            </Link>
-            <Link href="/">
-                Accounts
-            </Link>
-            <Link href="/">
-                Borrowing
-            </Link>
+           
             <OverviewToggle/>
         </nav>
         
