@@ -57,7 +57,7 @@ const OverviewToggle = () => {
 
   return (
     <div>
-      <Label className="mr-2 text-sm font-medium">
+      <Label className="text-white-bold" >
         {isChecked ? "Normal Mode" : "Distraction Free Mode"}
       </Label>
       <Switch   className={`transition-colors duration-300 ${
