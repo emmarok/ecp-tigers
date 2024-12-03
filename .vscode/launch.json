@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run Cucumber BDD Tests with Playwright",
+        "type": "node",
+        "request": "launch",
+        "program": "C:/ADHD/ecp-tigers/node_modules/.bin/cucumber-js",
+        "args": [
+          "--require", 
+          "./step-definitions/**/*.js",  // Path to step definitions
+          "--require-module", 
+          "@babel/register",  // To transpile JavaScript (if using Babel)
+          "./features/**/*.feature"  // Path to feature files
+        ],
+        "skipFiles": ["<node_internals>/**"],
+        "env": {
+          "NODE_ENV": "development"
+        },
+        "outFiles": [
+          "./dist/**/*.js"  // If you're using TypeScript and outputting to dist folder
+        ]
+      }
+    ]
+  }
+  

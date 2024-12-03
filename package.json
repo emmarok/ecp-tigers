@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "npx cucumber-js --require step-definitions/**/*.js features/**/*.feature --tags @test"
   },
   "packageManager": "npm@10.9.1",
   "overrides": {
@@ -34,9 +35,17 @@
     "vaul": "^1.1.1"
   },
   "devDependencies": {
+    "@cucumber/cucumber": "^11.1.0",
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1",
+    "cucumber": "^6.0.7",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
+    "playwright": "^1.49.0",
+    "playwright-bdd": "^7.5.0",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   }
 }
