@@ -24,9 +24,9 @@ export function DrawerDemo() {
   }
 
   return (
-    <Drawer className="bg-white">
+    <Drawer className="bg-white py-8">
       <DrawerTrigger asChild>
-        <Button variant="outline">Open Drawer</Button>
+        <Button variant="outline">Rebudget Groceries</Button>
       </DrawerTrigger>
       <DrawerContent>
         <div className="mx-auto w-full max-w-sm bg-white">
