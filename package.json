@@ -9,7 +9,7 @@
     "lint": "next lint",
     "test": "npx cucumber-js --require step-definitions/**/*.js features/**/*.feature --tags @test"
   },
-  "packageManager": "npm@10.5.2",
+  "packageManager": "npm@10.9.1",
   "overrides": {
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
@@ -24,7 +24,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.462.0",
-    "next": "15.0.3",
+    "next": "15.0.4",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "recharts": "^2.14.1",

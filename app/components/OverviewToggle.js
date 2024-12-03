@@ -51,16 +51,16 @@ const OverviewToggle = () => {
     if (checked) {
       router.push("/distractionfreeview"); // Replace "/new-page" with the desired route
     } else {
-      router.push("/home"); // Replace "/current-page" with the fallback route
+      router.push("/"); // Replace "/current-page" with the fallback route
     }
   };
 
   return (
     <div>
-      <Label className="text-white-bold" >
+      <Label className="text-white-bold px-4" width={2000} height={2000}>
         {isChecked ? "Normal Mode" : "Distraction Free Mode"}
       </Label>
-      <Switch   className={`transition-colors duration-300 ${
+      <Switch   className={`transition-colors duration-001 ${
     isChecked ? "bg-primary border-gray-300" : "bg-secondary border-gray-300"
   }`} checked={isChecked} onCheckedChange={handleToggle} />
 
