@@ -1,8 +1,12 @@
+import { Fullscreen } from 'lucide-react'
+import Image from 'next/image'
+import Link from 'next/link'
+
 export default function DistractionView () {
     return (<div className="bg-secondary h-full">
-      <h1>DISTRACTED</h1>
-
-    </div>
-     
+      <Link href="/">
+                <Image src="/distracted.png" alt="distracted" width={2000} height={2000}/>
+            </Link>
+     </div>
     )
   }
