@@ -51,7 +51,7 @@ const OverviewToggle = () => {
     if (checked) {
       router.push("/distractionfreeview"); // Replace "/new-page" with the desired route
     } else {
-      router.push("/home"); // Replace "/current-page" with the fallback route
+      router.push("/"); // Replace "/current-page" with the fallback route
     }
   };
 
