@@ -19,11 +19,14 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart"
 const chartData = [
-  { category: "Food", Budget: 275, Spent: 200, fill: "orange" },
+  { category: "Food/Drink", Budget: 275, Spent: 200, fill: "orange" },
   { category: "Travel", Budget: 200, Spent: 200, fill: "#b21d3f" },
   { category: "Utilities", Budget: 287, Spent: 200, fill: "#006A4D" },
-  { category: "Rent", Budget: 173, Spent: 200, fill: "#006A4D" },
+  { category: "Personal care", Budget: 173, Spent: 200, fill: "#006A4D" },
   { category: "Other", Budget: 190, Spent: 200, fill: "#b21d3f" },
+  { category: "Services and Membership", Budget: 190, Spent: 200, fill: "#b21d3f" },
+  { category: "Clothes", Budget: 190, Spent: 200, fill: "#b21d3f" },
+  { category: "Essentials", Budget: 190, Spent: 200, fill: "#b21d3f" },
   { category: "Remaining", Budget: 1900, Spent: 200, fill: "#6B777C" },
 ]
 

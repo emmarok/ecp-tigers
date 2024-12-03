@@ -69,7 +69,7 @@ const Preferences = () => {
               checked={switchValue}
               onCheckedChange={(checked) => setSwitchValue(checked)}
               className={`transition-colors duration-300 ${
-                switchValue ? "bg-green-500" : "bg-gray-300"
+                switchValue ? "bg-red-500" : "bg-green-300"
               }`}
             />
           </div>
